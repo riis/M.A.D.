@@ -14,11 +14,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         System.out.println("I have the most stickers");
         System.out.println("I have less stickers");
-<<<<<<< HEAD
-        System.out.println("Steve maqueen the lady machine");
-=======
-        // OMG STICKERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRS
->>>>>>> origin/master
+        System.out.println("Steve maqueen the lady machine loves the ladies");
     }
 
 
