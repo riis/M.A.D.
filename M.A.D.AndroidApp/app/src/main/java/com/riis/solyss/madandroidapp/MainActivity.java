@@ -30,10 +30,10 @@ public class MainActivity extends ActionBarActivity {
 
     public void onClick(View v) {
         if(v.getId() == R.id.loginButton) {
-            if(passwordField.length() > 7 && isValidEmailAddress) {
+            //if(passwordField.length() > 7 && isValidEmailAddress) {
                 // Send a request to our server to see if such a user exists
 
-            }
+           // }
 
 
         }
@@ -41,7 +41,7 @@ public class MainActivity extends ActionBarActivity {
 
 
 
-
+// This is bonkers
 
 
 
@@ -68,7 +68,7 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public static boolean isValidEmailAddress(String email) {
+   /* public static boolean isValidEmailAddress(String email) {
         boolean result = true;
         try {
             InternetAddress emailAddr = new InternetAddress(email);
@@ -77,6 +77,6 @@ public class MainActivity extends ActionBarActivity {
             result = false;
         }
         return result;
-    }
+    } */
 
 }
