@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-//hello there fools
+//hello there everyone
 public class MainActivity extends ActionBarActivity {
 
     private EditText usernameField;
